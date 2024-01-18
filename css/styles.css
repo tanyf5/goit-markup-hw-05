@@ -672,10 +672,6 @@ fieldset {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .div-comment {
@@ -697,6 +693,7 @@ fieldset {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
+    display: inline-flex;
 }
 
 .accept-input-label input[type="checkbox"]:checked + .checkbox-default {
@@ -721,11 +718,10 @@ fieldset {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
     background-color: #4D5AE5;
     cursor: pointer;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -734,7 +730,7 @@ fieldset {
     color: #ffffff;
     border: none;
     border-radius: 4px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -762,6 +758,7 @@ fieldset {
     padding-left: 16px;
     padding-top: 6px;
     padding-bottom: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .input-footer:focus {
@@ -785,6 +782,7 @@ fieldset {
 
 .subscribe-btn-icon {
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 .form-footer {
