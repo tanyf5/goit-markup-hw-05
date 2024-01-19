@@ -696,7 +696,7 @@ fieldset {
     display: inline-flex;
 }
 
-.accept-input-label input[type="checkbox"]:checked + .checkbox-default {
+#user-privacy:checked + .accept-input-label .checkbox-default {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
