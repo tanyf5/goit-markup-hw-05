@@ -664,6 +664,10 @@ fieldset {
     margin-bottom: auto;
 }
 
+.send-button:hover {
+    background-color: #404bbf;
+}
+
 .accept-input-label {
     color:#8E8F99;
     font-family: Roboto;
